@@ -1,0 +1,6 @@
+boton reserva
+fotos
+descripcion
+
+numero de contacto
+instagram
