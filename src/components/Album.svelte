@@ -5,13 +5,56 @@
 <h1> Àlbum de fotos </h1>
 
 <section class="gallery">
-  {#each album as foto, id }
     <div class="gallery__item">
-      <input type="radio" id={id} checked name="gallery" class="gallery__selector"/>
-      <img class="gallery__img" src="{foto}" alt=""/>
-      <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+      <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/convidats.JPG" alt="convidats"/>
+      <label for="img-1" class="gallery__thumb"><img src="images/album/convidats.JPG" alt=""/></label>
     </div>
-  {/each}
+    <div class="gallery__item">
+      <input type="radio" id="img-2" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/cuina.JPG" alt="cuina"/>
+      <label for="img-2" class="gallery__thumb"><img src="images/album/cuina.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-3" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/habitacio_gran.JPG" alt="habitacio gran"/>
+      <label for="img-3" class="gallery__thumb"><img  src="images/album/habitacio_gran.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-4" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/lavabo.JPG" alt="lavabo"/>
+      <label for="img-4" class="gallery__thumb"><img  src="images/album/lavabo.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-5" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/menjador.JPG" alt="menjador"/>
+      <label for="img-5" class="gallery__thumb"><img  src="images/album/menjador.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-6" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/petita.JPG" alt="petita"/>
+      <label for="img-6" class="gallery__thumb"><img  src="images/album/petita.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-7" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/sencera.JPG" alt="sencera"/>
+      <label for="img-7" class="gallery__thumb"><img  src="images/album/sencera.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-8" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/sofa.JPG" alt="sofa"/>
+      <label for="img-8" class="gallery__thumb"><img  src="images/album/sofa.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-9" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/terrassa.JPG" alt="terrassa"/>
+      <label for="img-9" class="gallery__thumb"><img  src="images/album/terrassa.JPG" alt=""/></label>
+    </div>
+    <div class="gallery__item">
+      <input type="radio" id="img-10" checked name="gallery" class="gallery__selector"/>
+      <img class="gallery__img" src="images/album/terrassa2.JPG" alt="terrassa2"/>
+      <label for="img-10" class="gallery__thumb"><img  src="images/album/terrassa2.JPG" alt=""/></label>
+    </div>
 </section>
 
 <style lang="scss">
@@ -24,17 +67,17 @@
     $max-img-height: 400px;
 
     img {
-    max-width: 100%;
+    max-width: 80%;
     vertical-align: top;
     }
 
     .gallery {
-    display: flex;
+        display: flex;
         margin: 10px auto;
         max-width: $max-img-width;
         position: relative;
         padding-top: $max-img-height/$max-img-width * 100%;
-        
+          
         @media screen and (min-width: $max-img-width){
         padding-top: $max-img-height;
         }
@@ -42,14 +85,12 @@
         &__img {
             position: absolute;
             top: 0;
-            left: 0;
+            left: 55px;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
         }
         
         &__thumb {
-            padding-top: 6px;
-            margin: 6px;
             display: block;
         }
         
