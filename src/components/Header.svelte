@@ -20,6 +20,6 @@
      }
      .header div {
         float:right;
-        margin: 30px
+        margin: 30px;
      }
 </style>

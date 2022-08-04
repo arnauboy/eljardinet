@@ -1,4 +1,5 @@
 <div>
+    <!-- svelte-ignore a11y-missing-content -->
     <a href="https://instagram.com/eljardinetdeborreda" class="fa fa-instagram"></a>
 </div>
 

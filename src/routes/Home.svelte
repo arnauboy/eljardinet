@@ -2,6 +2,8 @@
 	import BookButton from './../components/BookButton.svelte';
     import Header from '../components/Header.svelte';
     import Icons from '../components/Icons.svelte';
+	import ReservaHeader from '../components/ReservaHeader.svelte';
+import Album from '../components/Album.svelte';
 </script>
 
 <svelte:head>
@@ -11,14 +13,23 @@
 <main>
 	<Header />
     <Icons />
-	<h1>El Jardinet De Borredà</h1>
-	<h2> Una caseta de conte🏡</h2>
-	<div>
-		<BookButton />
+	<ReservaHeader />
+	<div style = "max-width: 80%; text-align: left; margin: 0 auto;">
+		<p class = "features"> <img src = "images/jardi.png" alt = "jardi" class = "little-icon">Jardí</p>
+		<p class = "feature-description"> Descansa a la bora del nostre til·ler</p>
+		<p class = "features"> <img src = "images/terraza.png" alt = "terrassa" class = "little-icon">Terrassa </p>
+		<p class = "feature-description"> Disfruta de les vistes dels Rasos de Peguera i la Serra d'Ensija </p>
+		<p class = "features"> <img src = "images/2bed.svg" alt = "2bed" class = "little-icon"> 2 llits de matrimoni</p>
+		<p class = "features"> <img src = "images/bed.png" alt = "bed" class = "little-icon">Un llit individual </p> 
+		<p class = "features"> <img src = "images/kitchen.png" alt = "cuina" class = "little-icon">Cuina </p> 
+		<p class = "feature-description"> Totalment equipada. Microones. Forn. Nevera. Rentabaixelles </p>
+
+		<hr />
+		<p >El Jardinet és una caseta ubicada Borredà; un petit però marevellós municipi de muntanya situat a la comarca del Berguedà.</p>
+		<hr />
+		<Album />
+		<p> Seguiu-nos a instagram a <a href="https://instagram.com/eljardinetdeborreda" alt="">@eljardinetdeborreda</a> per a veure més fotografies i no perdreus cap novetat!</p>
 	</div>
-	<p class="description">El Jardinet és una caseta ubicada Borredà; un petit però marevellós municipi de muntanya situat a la comarca del Berguedà. </p>
-	<p class="description">No us ho perdeu i gaudiu d'una inoblidable estada rural.</p>
-	<p> Seguiu-nos a instagram a <a href="https://instagram.com/eljardinetdeborreda" alt="">@eljardinetdeborreda</a> per a veure més fotografies i no perdreus cap novetat!</p>
 </main>
 
 <style>
@@ -33,17 +44,28 @@
 	h1 {
 		color: black;
 		font-size: 4em;
-		font-weight: bold;
+	
 	}
 
 	h2 {
 		color: black;
 		font-size: 2em;
 	}
+	
+	.features {
+		font-size: 1.2em;
+		font-weight: bold;
 
-	.description {
-		font-size: 2em;
+	}
 
+	.little-icon {
+		max-width: 15px;
+		margin-right: 20px;
+	}
+
+	.feature-description {
+		margin-left: 35px;
+		margin-top: -20px
 	}
 
 	@media (min-width: 640px) {
@@ -52,17 +74,12 @@
 		}
 	}
 
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        }
-    
-    .fa-instagram {
-        background: #125688;
-        color: white;
-        }
+	hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 </style>

@@ -1,4 +1,5 @@
 /node_modules/
 /public/build/
-
+/fotos_caseta/
 .DS_Store
+toDo.txt
