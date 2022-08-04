@@ -88,7 +88,7 @@
             left: 55px;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
-        }
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;        }
         
         &__thumb {
             display: block;

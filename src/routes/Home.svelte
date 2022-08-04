@@ -24,7 +24,7 @@ import Album from '../components/Album.svelte';
 		<p class = "features"> <img src = "images/kitchen.png" alt = "cuina" class = "little-icon">Cuina </p> 
 		<p class = "feature-description"> Totalment equipada. Microones. Forn. Nevera. Rentabaixelles </p>
 		<hr />
-		<p >El Jardinet és una caseta ubicada Borredà; un petit però marevellós municipi de muntanya situat a la comarca del Berguedà.</p>
+		<p class = "description">El Jardinet és una caseta ubicada Borredà; un petit però marevellós municipi de muntanya situat a la comarca del Berguedà.</p>
 		<hr />
 		<Album />
 		<p> Seguiu-nos a instagram a <a href="https://instagram.com/eljardinetdeborreda" alt="">@eljardinetdeborreda</a> per a veure més fotografies i no perdreus cap novetat!</p>
@@ -38,11 +38,17 @@ import Album from '../components/Album.svelte';
 		max-width: 240px;
 		margin: 0 auto;
 		font-family: 'Titillium Web', sans-serif;
+		
 	}
 	
 	.features {
 		font-size: 1.2em;
 		font-weight: bold;
+
+	}
+
+	.description {
+		font-size: 1.2em;
 
 	}
 

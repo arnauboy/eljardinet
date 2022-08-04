@@ -5,10 +5,10 @@
 
 <div style="display: flex; margin: 0 auto; max-width: 70%; padding-top: 100px">
     <img src="images/house_edit.JPG" alt="El Jardinet" style="float:left; max-width: 70%;"/> 
-    <div class="photo_box" style="float: right;  margin: 0 auto;  padding-top: 50px; ">
-        <h1>El Jardinet de Borredà</h1>
+    <div class="photo_box" style="float: right;  margin: 0 auto; text-align: left">
+        <h1>el Jardinet de Borredà</h1>
         <p>Carrer doctor Vilardell 17, 08619 Borredà, Espanya </p>
-        <p> 5 hostes · 3 dormitoris · 3 llits · 1 lavabo </p>
+        <p style = "font-weight: bold"> 5 hostes · 3 dormitoris · 3 llits · 1 lavabo </p>
         <BookButton />
         <BookingButton />
     </div>
@@ -20,7 +20,11 @@
     }
 
     img {
-        border-radius: 15px;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 
 </style>
