@@ -26,12 +26,14 @@
      .header-buttons {
         margin-left: auto;
         padding: 20px;
+        width: 50%;
         
      }
 
      .header-title {
         margin-top: 20px;
-        margin-left: 600px;
-        width: 30%;
+        margin-left: -40px;
+        margin: auto;
+        width: 50%;
      }
 </style>
