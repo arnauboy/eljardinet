@@ -31,6 +31,7 @@
 		max-width: 240px;
 		margin: 0 auto;
 		font-family: 'Titillium Web', sans-serif;
+		background-color: white;
 		
 	}
 

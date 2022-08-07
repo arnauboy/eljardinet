@@ -1,5 +1,4 @@
 <script>
-	import BookButton from './../components/BookButton.svelte';
     import Header from '../components/Header.svelte';
     import Icons from '../components/Icons.svelte';
 	import ReservaHeader from '../components/ReservaHeader.svelte';
