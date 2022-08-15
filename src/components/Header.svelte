@@ -45,4 +45,10 @@
         margin: auto;
         width: 50%;
      }
+
+     @media (max-width: 500px) {
+		.header {
+    	display: contents;
+  		}
+	}
 </style>

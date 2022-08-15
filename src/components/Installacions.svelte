@@ -1,3 +1,5 @@
+<div class="section" >
+
 <h1>Instal·lacions i serveis</h1>
 <p class = "features"> <img src = "images/paw-print.svg" alt = "animals" class = "little-icon">Animals admesos</p>
 <p class = "features"> <img src = "images/jardi.png" alt = "jardi" class = "little-icon">Jardí</p>
@@ -14,6 +16,8 @@
 <p class = "feature-description"> Zona d'estar. Televisió. Sofà</p>
 <p class = "features"> <img src = "images/accessibility.png" alt = "accessibility" class = "little-icon">Accessibilitat </p> 
 <p class = "feature-description"> Tot l'allotjament està situat a la planta baixa</p>
+
+</div>
 
 <style>
     .features {

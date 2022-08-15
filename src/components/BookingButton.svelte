@@ -1,5 +1,4 @@
 <script>
-    import {Link} from "svelte-routing";
   </script>
   
   <button class="bookButton" style="vertical-align:middle"> <a href="https://www.booking.com/hotel/es/el-jardinet.ca.html" style ="color: white"> <span>Booking.com</span> </a> </button>

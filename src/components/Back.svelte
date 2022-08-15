@@ -22,14 +22,14 @@
   
       }
       
-      .bookButton span {
+      .backButton span {
         cursor: pointer;
         display: inline-block;
         position: relative;
         transition: 0.5s;
       }
       
-      .bookButton span:after {
+      .backButton span:after {
         content: '\00bb';
         position: absolute; 
         opacity: 0;
@@ -38,11 +38,11 @@
         transition: 0.5s;
       }
       
-      .bookButton:hover span {
+      .backButton:hover span {
         padding-right: 25px;
       }
       
-      .bookButton:hover span:after {
+      .backButton:hover span:after {
         opacity: 1;
         right: 0;
       }

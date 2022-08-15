@@ -12,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
 <main>
@@ -28,17 +29,11 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 100%;
 		margin: 0 auto;
 		font-family: 'Titillium Web', sans-serif;
 		background-color: white;
 		
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 
 	:global(hr) {
@@ -49,5 +44,11 @@
     margin: 1em 0;
     padding: 0;
 }
+
+	@media (max-width: 600px) {
+		:global(.section) {
+			margin: 0 auto;
+		}
+	}
 </style>
 
