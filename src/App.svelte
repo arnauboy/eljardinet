@@ -37,13 +37,13 @@
 	}
 
 	:global(hr) {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #65C66E;
-    margin: 1em 0;
-    padding: 0;
-}
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #65C66E;
+		margin: 1em 0;
+		padding: 0;
+	}
 
 	@media (max-width: 600px) {
 		:global(.section) {
