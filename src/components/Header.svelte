@@ -46,9 +46,19 @@
         width: 50%;
      }
 
-     @media (max-width: 500px) {
+     @media (max-width: 750px) {
 		.header {
     	display: contents;
   		}
+
+        .header-title {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .header-buttons {
+            margin: 0 auto;
+            width: 100%;
+        }
 	}
 </style>
