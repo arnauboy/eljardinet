@@ -17,6 +17,7 @@
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
+        z-index: 2;
         }
     
     .fa:hover {
@@ -27,4 +28,10 @@
         background: #125688;
         color: white;
         }
+    
+    @media screen and (max-width: 600px) {
+        .fa:hover {
+            opacity: 1;
+        }
+    }   
 </style>

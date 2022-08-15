@@ -72,6 +72,7 @@
     }
 
     .gallery {
+        z-index: 1;
         display: flex;
         margin: 10px auto;
         max-width: $max-img-width;

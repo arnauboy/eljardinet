@@ -57,8 +57,7 @@
             border-radius: 10px; 
             padding: 10px; 
             max-width: 100%;  
-            margin: 0 auto;
-
+            margin: 20px auto;
         }
     }
 </style>
