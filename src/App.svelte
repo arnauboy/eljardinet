@@ -1,7 +1,7 @@
 <script>
 	import { Router, Link, Route } from "svelte-routing";
 	import Book from "./routes/Book.svelte";
-	import Contact from "./routes/contact.svelte";
+	import Contact from "./routes/Contact.svelte";
 	import Home from "./routes/Home.svelte"
 	export let url = "";
 </script>
