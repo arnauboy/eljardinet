@@ -24,7 +24,7 @@
 	<Location />
 	<hr />
 	<Album />
-	<p style = "font-size: 1.2em"> Seguiu-nos a instagram a <a href="https://instagram.com/eljardinetdeborreda" alt="">@eljardinetdeborreda</a> per a veure més fotografies i no perdreus cap novetat!</p>
+	<p style = "font-size: 1.2em; padding-bottom: 100px; padding-top: 100px;"> Seguiu-nos a instagram a <a href="https://instagram.com/eljardinetdeborreda" alt="">@eljardinetdeborreda</a> per a veure més fotografies i no perdreus cap novetat!</p>
 </div>
 
 

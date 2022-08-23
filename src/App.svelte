@@ -28,12 +28,7 @@
 <style>
 	main {
 		text-align: center;
-		padding: 1em;
-		max-width: 100%;
-		margin: 0 auto;
-		font-family: 'Titillium Web', sans-serif;
-		background-color: white;
-		
+		font-family: 'Titillium Web', sans-serif;	
 	}
 
 	:global(hr) {
@@ -43,6 +38,11 @@
 		border-top: 1px solid #65C66E;
 		margin: 1em 0;
 		padding: 0;
+	}
+
+	:global(body) {
+		padding: 0;
+		text-align: center;
 	}
 
 	@media (max-width: 600px) {

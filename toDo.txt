@@ -1,6 +1,2 @@
-boton reserva
-fotos
-descripcion
-
-numero de contacto
-instagram
+poner bakcground blanco al bajar
+fixear margin de la fotos

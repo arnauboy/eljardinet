@@ -6,10 +6,7 @@
 </script>
 
 <div class="header"> 
-    <div class = "header-title">
-        <!-- svelte-ignore missing-declaration -->
-        <img src = "images/title.png" alt = "title"/>
-    </div>
+    
     <div class = "header-buttons">
         {#if route==="/"}
             <BookButton />
@@ -27,9 +24,7 @@
         position: fixed;
         top: 0;
         width:100%; 
-        background-color: white;
         display: flex;
-    
      }
 
      .header-buttons {
@@ -42,7 +37,7 @@
      .header-title {
         margin-top: 20px;
         margin-left: -40px;
-        margin: auto;
+        margin: 0 auto;
         width: 50%;
      }
 
