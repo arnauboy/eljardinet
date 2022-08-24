@@ -99,6 +99,7 @@
 		.home_page{
 			max-width: 100%;
 			text-align: justify;
+			margin: 20px;
 		}
 	}
 
