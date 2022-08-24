@@ -28,18 +28,19 @@
         background-repeat: no-repeat;  
         background-position: center;
         padding-bottom: 20%;
-        box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;        
+        box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
+        display: flex;        
 
     }
     
     .info_box {
-        margin-left: -1000px;
-        margin-top: 200px;
         background: rgba(255, 255, 255, .8); 
         padding: 10px; 
-        max-width: 20%;  
-        display:inline-block;
+        max-width: 50%;  
         border-radius: 10px;
+        margin-top: 15%;
+        margin-left: 25%;
+        float: left;
     }
 
     @media (max-width: 750px) {

@@ -6,6 +6,7 @@
 	import Description from '../components/Description.svelte';
 	import Installacions from '../components/Installacions.svelte';
 	import Location from '../components/Location.svelte';
+	import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
 
 <svelte:head>
@@ -16,7 +17,9 @@
 <Header route="/"/>
 <Icons />
 <ReservaHeader />
-<div class="home_page">
+<!-- svelte-ignore a11y-invalid-attribute -->
+<a use:scrollTo={{ ref: 'home_page', duration: 1000 }} href="#" class="scroll-down"> </a>
+<div class="home_page"  use:scrollRef={'home_page'}>
 	<Description />
 	<hr />	
 	<Installacions />
@@ -33,10 +36,75 @@
 		max-width: 70%; text-align: left; margin: 0 auto;
 	}
 
+	.scroll-down {
+		opacity: 1;
+		-webkit-transition: all .5s ease-in 3s;
+		transition: all .5s ease-in 3s;
+		}
+
+	.scroll-down {
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		margin-left: -16px;
+		display: block;
+		width: 32px;
+		height: 32px;
+		border: 2px solid #FFF;
+		background-size: 14px auto;
+		border-radius: 50%;
+		z-index: 2;
+		-webkit-animation: bounce 2s infinite 2s;
+		animation: bounce 2s infinite 2s;
+		-webkit-transition: all .2s ease-in;
+		transition: all .2s ease-in;
+		}
+
+	.scroll-down:before {
+		position: absolute;
+		top: calc(50% - 8px);
+		left: calc(50% - 6px);
+		transform: rotate(-45deg);
+		display: block;
+		width: 12px;
+		height: 12px;
+		content: "";
+		border: 2px solid white;
+		border-width: 0px 0 2px 2px;
+		}
+
+		@keyframes bounce {
+			0%,
+			100%,
+			20%,
+			50%,
+			80% {
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+			}
+			40% {
+				-webkit-transform: translateY(-10px);
+				-ms-transform: translateY(-10px);
+				transform: translateY(-10px);
+			}
+			60% {
+				-webkit-transform: translateY(-5px);
+				-ms-transform: translateY(-5px);
+				transform: translateY(-5px);
+			}
+		}
+
 	@media (max-width: 600px){
 		.home_page{
 			max-width: 100%;
 			text-align: justify;
+		}
+	}
+
+	@media (max-width: 1400px){
+		.scroll-down{
+			visibility: hidden;
 		}
 	}
 </style>
