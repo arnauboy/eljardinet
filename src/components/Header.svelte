@@ -6,7 +6,6 @@
 </script>
 
 <div class="header"> 
-    
     <div class = "header-buttons">
         {#if route==="/"}
             <BookButton />
@@ -34,27 +33,11 @@
         
      }
 
-     .header-title {
-        margin-top: 20px;
-        margin-left: -40px;
-        margin: 0 auto;
-        width: 50%;
-     }
-
      @media (max-width: 750px) {
-		.header {
-    	display: contents;
-  		}
-
-        .header-title {
-            margin: 0 auto;
-            width: 100%;
-        }
 
         .header-buttons {
-            margin: 0 auto;
-            width: 100%;
-            padding: 0;
+            padding: 5px;
+            width: 70%;
         }
 	}
 </style>
