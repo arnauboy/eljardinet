@@ -3,13 +3,20 @@
     import BookButton from "./BookButton.svelte";
     import ContactButton from "./ContactButton.svelte";
     export let route;
+
+    function changeCss () {
+        var bodyElement = document.querySelector("body");
+        var bookButton = document.querySelector("book_button");
+        this.scrollY > 100 ? bookButton.style.visibility = visible : bookButton.style.visibility = hidden;
+    }
+    window.addEventListener("book_button", changeCss , false);
 </script>
 
 <div class="header"> 
     <div class = "header-buttons">
         {#if route==="/"}
-            <BookButton />
-            <ContactButton />
+        <BookButton />
+        <ContactButton />
         {:else}
             <Back />
         {/if}
@@ -29,15 +36,16 @@
      .header-buttons {
         margin-left: auto;
         padding: 20px;
-        width: 50%;
-        
+     }
+
+     #book_button {
+        float:left;
      }
 
      @media (max-width: 750px) {
 
         .header-buttons {
-            padding: 5px;
-            width: 70%;
+            padding: 5px;   
         }
 	}
 </style>

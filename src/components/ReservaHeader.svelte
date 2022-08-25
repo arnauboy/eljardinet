@@ -11,7 +11,7 @@
             </div>
             <a id="maps_link" style = "text-decoration: none;"href= "https://www.google.es/maps/place/Carrer+Dr.+Miquel+Vilardell+i+Picas,+17,+08619+Borred%C3%A0,+Barcelona/@42.1346738,1.9911864,17z/data=!3m1!4b1!4m5!3m4!1s0x12a511fbfba3604f:0x2d1170643f95d03c!8m2!3d42.1346698!4d1.9933751?hl=ca">Carrer doctor Vilardell 17, Borredà, Espanya </a>
             <p style = "font-weight: bold"> 5 hostes · 3 dormitoris · Jardí · Terrassa</p>
-            <BookButton />
+            <div id="reserva-panell"><BookButton /></div>
             <BookingButton />
         </div>
     </div>
@@ -51,10 +51,6 @@
             margin-bottom: auto;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        #maps_link {
-            visibility: hidden;
         }
     }
 </style>

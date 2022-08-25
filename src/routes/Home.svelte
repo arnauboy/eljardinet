@@ -103,7 +103,7 @@
 		}
 	}
 
-	@media (max-width: 1400px){
+	@media (max-width: 1030px){
 		.scroll-down{
 			visibility: hidden;
 		}
