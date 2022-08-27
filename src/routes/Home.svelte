@@ -33,7 +33,7 @@
 
 <style>
 	.home_page {
-		max-width: 70%; text-align: left; margin: 0 auto;
+		max-width: 50%; text-align: left; margin: auto; margin-top: 50px;
 	}
 
 	.scroll-down {
@@ -103,7 +103,7 @@
 		}
 	}
 
-	@media (max-width: 1030px){
+	@media (max-width: 1300px){
 		.scroll-down{
 			visibility: hidden;
 		}
