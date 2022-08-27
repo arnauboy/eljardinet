@@ -7,7 +7,7 @@
     <div class = "background_image">
         <div class = "info_box">
             <div>
-                <img src = "images/title.png" alt = "title"/>
+                <img class="title" src = "images/El_jardinet_logo.png" alt = "title"/>
             </div>
             <a id="maps_link" style = "text-decoration: none;"href= "https://www.google.es/maps/place/Carrer+Dr.+Miquel+Vilardell+i+Picas,+17,+08619+Borred%C3%A0,+Barcelona/@42.1346738,1.9911864,17z/data=!3m1!4b1!4m5!3m4!1s0x12a511fbfba3604f:0x2d1170643f95d03c!8m2!3d42.1346698!4d1.9933751?hl=ca">Carrer doctor Vilardell 17, Borredà, Espanya </a>
             <p style = "font-weight: bold"> 5 hostes · 3 dormitoris · Jardí · Terrassa</p>
@@ -20,6 +20,11 @@
 <style>
     p {
        margin-bottom: 30px;
+    }
+
+    .title {
+        max-width: 50%;
+
     }
 
     .background_image {
@@ -35,7 +40,7 @@
     .info_box {
         background: rgba(255, 255, 255, .8); 
         padding: 10px; 
-        max-width: 50%;  
+        max-width: 20%;  
         border-radius: 10px;
         margin-top: 15%;
         margin-left: 25%;

@@ -9,11 +9,6 @@
 	import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
 
-<svelte:head>
-	<title>El Jardinet</title>
-</svelte:head>
-
-
 <Header route="/"/>
 <Icons />
 <ReservaHeader />
@@ -33,7 +28,7 @@
 
 <style>
 	.home_page {
-		max-width: 50%; text-align: left; margin: auto; margin-top: 50px;
+		max-width: 40%; text-align: justify; margin: auto; margin-top: 50px;
 	}
 
 	.scroll-down {

@@ -31,6 +31,7 @@
         top: 0;
         width:100%; 
         display: flex;
+        z-index: 2;
      }
 
      .header-buttons {

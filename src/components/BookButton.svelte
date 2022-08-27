@@ -3,7 +3,7 @@
   let disable = true;
 </script>
 
-<button class="bookButton" style="vertical-align:middle"> <Link to="book" style="color: white;" {disable}> <span>Reserva</span> </Link> </button>
+<button class="bookButton" style="vertical-align:middle;"> <Link to="book" style="color: white;" {disable}> <span>Reserva</span> </Link> </button>
 
 <style>
     .bookButton {

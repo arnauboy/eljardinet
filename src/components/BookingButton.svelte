@@ -1,5 +1,5 @@
 <script>
-  </script>
+</script>
   
   <button class="bookButton" style="vertical-align:middle"> <a href="https://www.booking.com/hotel/es/el-jardinet.ca.html" style ="color: white"> <span>Booking.com</span> </a> </button>
   
@@ -18,7 +18,6 @@
         cursor: pointer;
         margin: 5px;
         text-decoration: none;
-  
       }
       
       .bookButton span {

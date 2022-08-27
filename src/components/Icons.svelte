@@ -9,6 +9,7 @@
         bottom: 0px;
         right: 0px;
         margin: 20px;
+        z-index: 2;
     }
      .fa {
         padding: 20px;
@@ -17,7 +18,6 @@
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
-        z-index: 2;
         }
     
     .fa:hover {
