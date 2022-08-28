@@ -6,6 +6,7 @@
 	import Description from '../components/Description.svelte';
 	import Installacions from '../components/Installacions.svelte';
 	import Location from '../components/Location.svelte';
+	import Tarifes from '../components/Tarifes.svelte';
 	import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 </script>
 
@@ -18,6 +19,8 @@
 	<Description />
 	<hr />	
 	<Installacions />
+	<hr />
+	<Tarifes />
 	<hr />
 	<Location />
 	<hr />
@@ -98,7 +101,7 @@
 		}
 	}
 
-	@media (max-width: 1300px){
+	@media (max-aspect-ratio: 14/8){ 
 		.scroll-down{
 			visibility: hidden;
 		}

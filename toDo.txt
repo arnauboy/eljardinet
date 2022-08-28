@@ -1,2 +1,2 @@
-poner bakcground blanco al bajar
-fixear margin de la fotos
+posar tarifes
+treure scroll down d'absolute
